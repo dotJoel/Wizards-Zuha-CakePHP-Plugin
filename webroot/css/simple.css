@@ -1,0 +1,21 @@
+body > .container { position: relative; }
+.wizardBox {
+  padding: 15px;
+  box-shadow: 5px 5px 5px #555;
+  -moz-box-shadow: 5px 5px 5px #555;
+  -webkit-box-shadow: 5px 5px 5px #555;
+  position: absolute;
+  background: #fefefe;
+  /*overflow: scroll;*/
+  width: 33%; height: 33%;
+  border: #666 1px solid;
+}
+#simpleWizard0 { top: 0; left: 0; }
+#simpleWizard1 { top: 0; left: 33%; }
+#simpleWizard2 { top: 0; right: 0; }
+#simpleWizard3 { top: 33%; left: 0; }
+#simpleWizard4 { top: 33%; left: 33%; }
+#simpleWizard5 { top: 33%; right: 0; }
+#simpleWizard6 { bottom: 0; left: 0; }
+#simpleWizard7 { bottom: 0; left: 33%; }
+#simpleWizard8 { bottom: 0; right: 0; }
