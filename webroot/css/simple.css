@@ -1,9 +1,10 @@
 body > .container { position: relative; }
 .wizardBox {
   padding: 15px;
-  box-shadow: 5px 5px 5px #555;
-  -moz-box-shadow: 5px 5px 5px #555;
-  -webkit-box-shadow: 5px 5px 5px #555;
+  margin: 15px;
+  box-shadow: 5px 5px 5px rgb(165, 165, 165);
+  -moz-box-shadow: 5px 5px 5px rgb(165, 165, 165);
+  -webkit-box-shadow: 5px 5px 5px rgb(165, 165, 165);
   position: absolute;
   background: #fefefe;
   /*overflow: scroll;*/
